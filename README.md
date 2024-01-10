@@ -10,6 +10,7 @@ git clone git@github.com:mathewant10y/demo.git
 git add . --- selects all files to be included in git
 git status --- shows the status
 git commit -m 'added index.html' -m "some description"
+git commit -am ' ' --- only works for committing modified files not newly created files
 git push --- pushes to github
 
 # branches
@@ -28,3 +29,8 @@ d
 git pull --- is done in local repository ( in vs code) to pull the modified main branch
 after pr is merged the side branch is deleted
 git branch -d feature-readme --- deleted the branch
+
+# merge conflicts
+
+they occur when merging two branches(main and side) which have different code entered
+it can be resolved in the vs code editor
